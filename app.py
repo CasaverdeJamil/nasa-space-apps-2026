@@ -193,8 +193,6 @@ I18N = {
  "bib_title": "Bibliografía científica", "bib_acc": "Consultado el {d}.",
  "bib_c1": "Datos y observación satelital", "bib_c2": "Métodos agroclimáticos", "bib_c3": "Índices de sequía",
  "bib_c4": "Información local", "bib_c5": "Contexto e inspiración",
- "bib_insp": "SEEDRA se inspira en **QUEÑARIS** (Arequipa), Global Winner en la categoría Local Impact de NASA Space Apps 2025, que combina datos satelitales de la NASA con acción local frente a la escasez de agua en los Andes.",
- "us_title": "Nosotros",
  "us_hero": "Datos de la NASA al servicio de quien siembra en los Andes",
  "us_hero_sub": "Somos dos jóvenes peruanos apasionados por usar la tecnología para mejorar la calidad de la agricultura en el Perú y, por qué no, en el mundo.",
  "us_mission_t": "Misión",
@@ -336,7 +334,6 @@ I18N = {
  "bib_title": "Scientific references", "bib_acc": "Accessed {d}.",
  "bib_c1": "Satellite data and observation", "bib_c2": "Agroclimatic methods", "bib_c3": "Drought indices",
  "bib_c4": "Local information", "bib_c5": "Context and inspiration",
- "bib_insp": "SEEDRA is inspired by **QUEÑARIS** (Arequipa), a Global Winner in the Local Impact category of NASA Space Apps 2025, which combines NASA satellite data with local action against water scarcity in the Andes.",
  "us_title": "About us",
  "us_hero": "NASA data in the hands of those who farm the Andes",
  "us_hero_sub": "We are two passionate young Peruvians using technology to improve the quality of agriculture in Peru and, why not, around the world.",
@@ -1285,9 +1282,6 @@ with t5:
             "McKee, T. B., Doesken, N. J., &amp; Kleist, J. (1993). The relationship of drought frequency and duration to time scales. <i>Proceedings of the 8th Conference on Applied Climatology</i> (pp. 179–184). American Meteorological Society."]),
         ("bib_c4", [
             "Servicio Nacional de Meteorología e Hidrología del Perú (SENAMHI). (n.d.). <i>Información agrometeorológica y calendario de siembra, región Puno</i>. <a href='https://www.senamhi.gob.pe' target='_blank'>https://www.senamhi.gob.pe</a>. " + acc]),
-        ("bib_c5", [
-            "NASA Space Apps Challenge. (2025). <i>Meet the 2025 Global Winners: QUEÑARIS (Local Impact; local event Arequipa, Peru; challenge “BloomWatch”)</i>. <a href='https://www.spaceappschallenge.org/2025/meet-the-2025-global-winners' target='_blank'>https://www.spaceappschallenge.org/2025/meet-the-2025-global-winners</a>. " + acc,
-            "NASA Space Apps Challenge. (2026). <i>Challenge: Field Shift: Adapting Farms with NASA Data</i>."]),
     ]
     for ck, items in REFS:
         st.markdown("#### " + T[ck])

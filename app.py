@@ -1,4 +1,3 @@
-%%writefile app.py
 # -*- coding: utf-8 -*-
 """SEEDRA: apoyo a la decisión de siembra y rotación de cultivos con NASA POWER (piloto Puno, Perú)."""
 import base64

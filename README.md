@@ -1,5 +1,8 @@
 # 🌱 SEEDRA | Agroclimatic Intelligence for the Altiplano
 
+### 🌐 Live Interactive App: [Launch SEEDRA on Streamlit Cloud](https://nasa-space-apps-2026-seedra.streamlit.app/)
+
+
 **NASA Space Apps Challenge 2026 · Pilot in Puno, Peru (3,800 m a.s.l.)**
 
 SEEDRA transforms open satellite data from **NASA POWER** into simple, actionable planting and crop rotation (*Aynoca*) recommendations for smallholder farmers in the Andes.
